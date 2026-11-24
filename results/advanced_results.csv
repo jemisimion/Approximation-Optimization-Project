@@ -1,0 +1,91 @@
+Items,Pattern,Algorithm,Total Item Size,Bins,Lower Bound,Gap,Utilization (%),Execution Time (ms)
+100,Ascending,Next Fit,5373,70,54,16,76.76,0.0208
+100,Ascending,First Fit,5373,70,54,16,76.76,0.2079
+100,Ascending,Best Fit,5373,70,54,16,76.76,0.2476
+100,Ascending,First Fit Decreasing,5373,56,54,2,95.95,0.23
+100,Ascending,Segment Tree First Fit,5373,70,54,16,76.76,0.3299
+100,Ascending,Segment Tree FFD,5373,56,54,2,95.95,0.4548
+100,Descending,Next Fit,5373,70,54,16,76.76,0.0326
+100,Descending,First Fit,5373,56,54,2,95.95,0.2862
+100,Descending,Best Fit,5373,56,54,2,95.95,0.2777
+100,Descending,First Fit Decreasing,5373,56,54,2,95.95,0.1504
+100,Descending,Segment Tree First Fit,5373,56,54,2,95.95,0.5309
+100,Descending,Segment Tree FFD,5373,56,54,2,95.95,0.404
+100,Random,Next Fit,5373,72,54,18,74.62,0.0906
+100,Random,First Fit,5373,59,54,5,91.07,0.1275
+100,Random,Best Fit,5373,58,54,4,92.64,0.1909
+100,Random,First Fit Decreasing,5373,56,54,2,95.95,0.1582
+100,Random,Segment Tree First Fit,5373,59,54,5,91.07,0.4119
+100,Random,Segment Tree FFD,5373,56,54,2,95.95,0.353
+500,Ascending,Next Fit,26026,337,261,76,77.23,0.1532
+500,Ascending,First Fit,26026,337,261,76,77.23,4.5267
+500,Ascending,Best Fit,26026,337,261,76,77.23,4.9938
+500,Ascending,First Fit Decreasing,26026,266,261,5,97.84,4.7737
+500,Ascending,Segment Tree First Fit,26026,337,261,76,77.23,4.2335
+500,Ascending,Segment Tree FFD,26026,266,261,5,97.84,3.9448
+500,Descending,Next Fit,26026,337,261,76,77.23,0.1499
+500,Descending,First Fit,26026,266,261,5,97.84,20.3023
+500,Descending,Best Fit,26026,266,261,5,97.84,15.1158
+500,Descending,First Fit Decreasing,26026,266,261,5,97.84,3.8241
+500,Descending,Segment Tree First Fit,26026,266,261,5,97.84,3.1573
+500,Descending,Segment Tree FFD,26026,266,261,5,97.84,2.9602
+500,Random,Next Fit,26026,341,261,80,76.32,0.111
+500,Random,First Fit,26026,279,261,18,93.28,3.3315
+500,Random,Best Fit,26026,276,261,15,94.3,4.3242
+500,Random,First Fit Decreasing,26026,266,261,5,97.84,4.0752
+500,Random,Segment Tree First Fit,26026,279,261,18,93.28,2.7642
+500,Random,Segment Tree FFD,26026,266,261,5,97.84,2.7628
+1000,Ascending,Next Fit,52377,679,524,155,77.14,0.211
+1000,Ascending,First Fit,52377,679,524,155,77.14,13.9712
+1000,Ascending,Best Fit,52377,679,524,155,77.14,17.2247
+1000,Ascending,First Fit Decreasing,52377,534,524,10,98.08,15.4279
+1000,Ascending,Segment Tree First Fit,52377,679,524,155,77.14,6.6057
+1000,Ascending,Segment Tree FFD,52377,534,524,10,98.08,6.499
+1000,Descending,Next Fit,52377,679,524,155,77.14,0.2422
+1000,Descending,First Fit,52377,534,524,10,98.08,15.1473
+1000,Descending,Best Fit,52377,534,524,10,98.08,28.5812
+1000,Descending,First Fit Decreasing,52377,534,524,10,98.08,15.8982
+1000,Descending,Segment Tree First Fit,52377,534,524,10,98.08,6.3587
+1000,Descending,Segment Tree FFD,52377,534,524,10,98.08,7.2079
+1000,Random,Next Fit,52377,688,524,164,76.13,0.3329
+1000,Random,First Fit,52377,554,524,30,94.54,13.7814
+1000,Random,Best Fit,52377,546,524,22,95.93,19.8723
+1000,Random,First Fit Decreasing,52377,534,524,10,98.08,15.6968
+1000,Random,Segment Tree First Fit,52377,554,524,30,94.54,6.989
+1000,Random,Segment Tree FFD,52377,534,524,10,98.08,8.0121
+2000,Ascending,Next Fit,104350,1337,1044,293,78.05,0.4665
+2000,Ascending,First Fit,104350,1337,1044,293,78.05,59.0412
+2000,Ascending,Best Fit,104350,1337,1044,293,78.05,60.1397
+2000,Ascending,First Fit Decreasing,104350,1058,1044,14,98.63,65.6187
+2000,Ascending,Segment Tree First Fit,104350,1337,1044,293,78.05,13.0705
+2000,Ascending,Segment Tree FFD,104350,1058,1044,14,98.63,14.0676
+2000,Descending,Next Fit,104350,1337,1044,293,78.05,0.5701
+2000,Descending,First Fit,104350,1058,1044,14,98.63,61.5562
+2000,Descending,Best Fit,104350,1058,1044,14,98.63,113.3789
+2000,Descending,First Fit Decreasing,104350,1058,1044,14,98.63,66.4156
+2000,Descending,Segment Tree First Fit,104350,1058,1044,14,98.63,15.3476
+2000,Descending,Segment Tree FFD,104350,1058,1044,14,98.63,15.0777
+2000,Random,Next Fit,104350,1390,1044,346,75.07,0.4631
+2000,Random,First Fit,104350,1089,1044,45,95.82,58.3897
+2000,Random,Best Fit,104350,1072,1044,28,97.34,70.0285
+2000,Random,First Fit Decreasing,104350,1058,1044,14,98.63,60.7519
+2000,Random,Segment Tree First Fit,104350,1089,1044,45,95.82,14.9049
+2000,Random,Segment Tree FFD,104350,1058,1044,14,98.63,14.9057
+5000,Ascending,Next Fit,263279,3384,2633,751,77.8,1.144
+5000,Ascending,First Fit,263279,3384,2633,751,77.8,347.3825
+5000,Ascending,Best Fit,263279,3384,2633,751,77.8,401.1287
+5000,Ascending,First Fit Decreasing,263279,2663,2633,30,98.87,385.9805
+5000,Ascending,Segment Tree First Fit,263279,3384,2633,751,77.8,33.9697
+5000,Ascending,Segment Tree FFD,263279,2663,2633,30,98.87,37.5931
+5000,Descending,Next Fit,263279,3384,2633,751,77.8,1.3366
+5000,Descending,First Fit,263279,2663,2633,30,98.87,367.9396
+5000,Descending,Best Fit,263279,2663,2633,30,98.87,661.8014
+5000,Descending,First Fit Decreasing,263279,2663,2633,30,98.87,365.4911
+5000,Descending,Segment Tree First Fit,263279,2663,2633,30,98.87,38.7854
+5000,Descending,Segment Tree FFD,263279,2663,2633,30,98.87,39.3508
+5000,Random,Next Fit,263279,3503,2633,870,75.16,1.3873
+5000,Random,First Fit,263279,2716,2633,83,96.94,336.9158
+5000,Random,Best Fit,263279,2695,2633,62,97.69,459.203
+5000,Random,First Fit Decreasing,263279,2663,2633,30,98.87,364.9315
+5000,Random,Segment Tree First Fit,263279,2716,2633,83,96.94,35.9371
+5000,Random,Segment Tree FFD,263279,2663,2633,30,98.87,40.4711
